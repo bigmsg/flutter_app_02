@@ -12,10 +12,13 @@ class Question extends StatelessWidget {
       width: double.infinity,
       margin: EdgeInsets.all(100),
       child: Text(
-      "Q: " + questionText,
-      style: TextStyle(fontSize: 28),
-      textAlign:TextAlign.center,
+        "Q: " + questionText,
+        style: TextStyle(fontSize: 28),
+        textAlign:TextAlign.center,
         ),
+
     );
   }
 }
+
+
